@@ -50,5 +50,5 @@ function _HTML_surname_replace(surnames, replace_fullname, replace_surname, suff
 }
 
 _HTML_surname_replace(surnames, "施阳天", "施", "院士")
-_HTML_surname_replace(surnames, "施阳天", "施", "<em>院士") /* for titles in Google Search results */
+_HTML_surname_replace(surnames, "施阳天", "施", "<em>院士") /* for those in Google Search results */
 
