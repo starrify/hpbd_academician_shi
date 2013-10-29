@@ -1,0 +1,29 @@
+/* 
+ * A testing Chrome Extension for celebrating the birthday of Academician Shi the Great.
+ * by Pengyu CHEN (cpy.prefers.you[at]gmail.com)
+ * COPYLEFT, ALL WRONGS RESERVED.
+ */
+
+{
+    "manifest_version": 2,
+    "name": "HPBD_Academician_Shi",
+    "description": "A testing Chrome Extension for celebrating the birthday of Academician Shi the Great.",
+    "version": "0.1",
+    "permissions": 
+    [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "content_scripts": 
+    [
+        {
+            "matches": [ "http://*/*", "https://*/*" ],
+            "js": [ "replacer.js" ],
+            "run_at": "document_end"
+        }
+    ],
+    "browser_action": 
+    {
+        //"default_icon": "",
+    }
+}
