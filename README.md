@@ -1,6 +1,6 @@
 # hpbd_academician_shi #
 
-A testing Chrome Extension for celebrating the birthday of Academician Shi the Great.
+A simple Chrome extension for celebrating the birthday of Academician Shi the Great.
 
 ## Usage ##
  1. Fetch this repository to your local drive.

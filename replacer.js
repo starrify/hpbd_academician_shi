@@ -1,5 +1,5 @@
 /* 
- * A testing Chrome Extension for celebrating the birthday of Academician Shi the Great.
+ * A simple Chrome extension for celebrating the birthday of Academician Shi the Great.
  * by Pengyu CHEN (cpy.prefers.you[at]gmail.com)
  * COPYLEFT, ALL WRONGS RESERVED.
  */
