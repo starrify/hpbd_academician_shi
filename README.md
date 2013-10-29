@@ -5,7 +5,7 @@ A testing Chrome Extension for celebrating the birthday of Academician Shi the G
 ## Usage ##
  1. Fetch this repository to your local drive.
  2. Open your Chrome/Chromium browser and visit `chrome://extensions/`
- 3. Click on `Load unpacked extension` and choose the path of this repository.
+ 3. Click on `Load unpacked extension` and choose the path of this repository. If you don't see a button named `Load unpacked extension`, check the checkbox `Developer mode` first.
  4. Try visiting any page containing `院士`, like [院士 生日快乐 - Google Search][1]
 
 ## Sample Results ##
