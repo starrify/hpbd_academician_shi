@@ -38,7 +38,6 @@ function _HTML_surname_replace(surnames, replace_fullname, replace_surname, suff
     tmp = tmp.concat(surnames.map(function(x){ return "(" + x + "." + suffix + ")"; }));
     tmp = tmp.concat(surnames.map(function(x){ return "(" + x + ".." + suffix + ")"; }));
     var pattern_fullname = tmp.join("|");
-    console.log(pattern_fullname);
     document.body.innerHTML = 
         document.body.innerHTML.replace(new RegExp(pattern_fullname, "g"), replace_fullname + suffix);
 

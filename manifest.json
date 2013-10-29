@@ -12,12 +12,13 @@
     "permissions": 
     [
         "http://*/*",
-        "https://*/*"
+        "https://*/*",
+        "file://*/*"
     ],
     "content_scripts": 
     [
         {
-            "matches": [ "http://*/*", "https://*/*" ],
+            "matches": [ "http://*/*", "https://*/*", "file://*/*" ],
             "js": [ "replacer.js" ],
             "run_at": "document_end"
         }
